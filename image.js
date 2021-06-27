@@ -62,7 +62,7 @@ class image {
           paint.drawDistractor(position);
           continue
         }
-        paint.drawCircle(position);
+        paint.drawNeutral(position);
       }
 
       var out = fs.createWriteStream(path)

@@ -38,7 +38,7 @@ class painter {
     //})
   }
 
-  drawCircle(position, color) {
+  drawNeutral(position, color) {
 
     //loadImage('resources/yellow_grey.jpg').then(image => {
       //this.context.drawImage(image, position.x - (stimulusSide / 2), position.y - (stimulusSide / 2), stimulusSide, stimulusSide)

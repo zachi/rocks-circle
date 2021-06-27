@@ -34,7 +34,7 @@ class painter {
     })
   }
 
-  drawCircle(position, color) {
+  drawNeutral(position, color) {
     loadImage(`resources/${stimulusPrefix}_grey.jpg`).then(image => {
       //console.log(`drawing image ${position.x - (stimulusSide / 2)} ${position.y - (stimulusSide / 2)} ${stimulusSide}`)
       this.context.drawImage(image, position.x - (stimulusSide / 2), position.y - (stimulusSide / 2), stimulusSide, stimulusSide)
